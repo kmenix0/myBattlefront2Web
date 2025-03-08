@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapy i planety Star Wars&#8482; Battlefront II - Nieoficjalna strona EA</title>
+    <link rel="icon" type="image/png" href="https://cdn2.downdetector.com/static/uploads/logo/EA-Logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+        *{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        body{
+            margin: 0;
+            background-image: url("https://images.hdqwalls.com/download/birds-flying-8-bit-minimal-4k-ix-1280x800.jpg");
+            background-blend-mode: multiply;
+            background-size: 100%;
+            background-repeat: repeat-y;
+            background-position: center;
+            background-color: rgba(0,0,0,.75);
+        }
+
+        header{
+            width: 100%;
+            height: 530px;
+            background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/common/swbf2-refresh-generic-section-bg-smoke-vignette-xl.jpg.adapt.1920w.jpg");
+            box-shadow: inset 0 75px 50px black;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            border-top: 75px solid black;
+        }
+        header h2{
+            margin-top: 5%;
+            text-align: center;
+            margin-bottom: .2%;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 1.6em;
+        }
+        header h1{
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 3.5em;
+            letter-spacing: -2px;
+            font-weight: 900;
+            margin: 0;
+        }
+        header h3{
+            text-align: center;
+            font-weight: 400;
+            font-size: 1.6em;
+            margin-top: .6%;
+        }
+
+        main{
+            width: 90%;
+            min-height: 3500px;
+            padding-bottom: 5%;
+            margin-left: 5%;
+            box-shadow: inset 0 75px 50px black;
+        }
+        main button{
+            float: left;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 535px;
+            color: white;
+            background-color: rgba(0,0,0,0);
+            border: none;
+            padding: 0;
+            margin-left: 1%;
+            margin-top: 1%;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        main article{
+            height: 525px;
+        }
+        @media only screen and (max-width: 768px) {
+            main button{
+                width: 96%;
+            }
+        }
+        @media only screen and (min-width: 768px) {
+            main button{
+                width: 47%;
+            }
+        }
+        @media only screen and (min-width: 992px) {
+            main button{
+                width: 47%;
+            }
+        }
+        @media only screen and (min-width: 1200px) {
+            main button{
+                width: 31.75%;
+            }
+        }
+        @media only screen and (min-width: 1600px) {
+            main button{
+                width: 23.5%;
+            }
+        }
+        main img{
+            text-align: center;
+            width: 105%;
+            max-height: 235px;
+        }
+        main h1{
+            padding-left: 4%;
+            text-align: left;
+            font-size: 1.8em;
+            font-weight: 800;
+        }
+        main p{
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-bottom: 4%;
+            text-align: left;
+            font-size: 1.5em;
+            font-weight: 500;
+            height: max-content;
+            overflow: auto;
+        }
+        main div{
+            float: left;
+            height: 35px;
+        }
+        main .sup{
+            background-image: url("supremacja.png");
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: center;
+        }
+        main .koo{
+            background-image: url("koop.png");
+            background-repeat: no-repeat;
+            background-size: 60px;
+            background-position: center;
+        }
+        main .gal{
+            background-image: url("galaktycznyszturm.png");
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
+        }
+        main .bvz{
+            background-image: url("bohaterowie.png");
+            background-repeat: no-repeat;
+            background-size: 35px;
+            background-position: center;
+        }
+        main .low{
+            background-image: url("inne.png");
+            background-repeat: no-repeat;
+            background-size: 35px;
+            background-position: center;
+        }
+        main .pot{
+            background-image: url("inne.png");
+            background-repeat: no-repeat;
+            background-size: 35px;
+            background-position: center;
+        }
+        main .kon{
+            background-image: url("inne.png");
+            background-repeat: no-repeat;
+            background-size: 35px;
+            background-position: center;
+        }
+        main .mys{
+            background-image: url("mysliwce.png");
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Słynne pola bitew</h2>
+        <h1>Mapy i lokacje</h1>
+        <h3>Walcz w egzotycznych zakątkach całej galaktyki</h3>
+    </header>
+    <main>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 20%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/naboo-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Naboo</h1>
+                <p>Trzeetapowy szturm na stolice Naboo. Drużyny droidów chronią olbrzymiego MTT zmierzającego powoli do pałacu królewskiego.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 0%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 25%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 25%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 25%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 25%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/skb-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Baza Starkiller</h1>
+                <p>Nad bazą Starkiller szaleje bitwa myśliwców, a grupka członków Ruchu Oporu przeprowadza śmiały atak, by uratować więźniów przetrzymywanych w bazie Najwyższego Porządku.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 16.66%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/kamino-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Kamino</h1>
+                <p>Fale Kamino rozbijają się o brzeg sztucznej wyspy pod smukłymi platformami centrum klonowania, zaś armie droidów bojowych przypuszczają na nią szturm.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 20%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/takodana-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Takodana</h1>
+                <p>Na Takodanie Najwyższy Porządek atakuje zamek Maz Kanaty. Wojska Ruchu Oporu zajęły w środku pozycje obronne.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/jakku-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Jakku</h1>
+                <p>Siły Najwyższego Porządku otoczyły grupę bojowników Ruchu Oporu w porzuconym wraku gwiezdnego niszczyciela na pustyni Jakku.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/yavin-4-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Yavin 4</h1>
+                <p>Głęboko wewnątrz Wielkiej Świątyni na Yavin 4 drzemie tajemnica będąca kluczem dla przetrwania Rebelii. Przybyły tu jednak naziemne siły Imperialne!</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/ds2-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Druga Gwiazda Śmierci</h1>
+                <p>W trakcie rozszalałej bitwy o Endor korweta Sojuszu traci sterowność i rozbija się w otwartym hangarze potężnej Gwiazdy Śmierci. Ocalali rebelianci muszą przedrzeć się przez siły wroga!</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 0%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 14.28%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 14.28%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 14.28%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 14.28%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 14.28%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 14.28%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 14.28%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/endor-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Endor</h1>
+                <p>Rebelianckie siły starają się szybko wykraść maszynę kroczącą AT-AT i zaatakować za jej pomocą ukrytą bazę Imperium.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 20%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hoth-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Hoth</h1>
+                <p>Powolne maszyny kroczące AT-AT zmierzają ku rebelianckim pozycjom osłaniane z powietrza, zaś ich przeciwnicy próbują utrzymać teren.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 20%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/kashyyyk-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Kashyyyk</h1>
+                <p>Wojownicy Wookieech i żołnierze-klony okopują się, by bronić uziemionego krążownika przed desantem armii droidów na plażę.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/tatooine-tile-lg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Tatooine</h1>
+                <p>Imperialni szturmowcy ruszają z promów na zatłoczone ulice Mos Eisley.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hub-crait-xlg.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Crait</h1>
+                <p>Znajdujący się w potrzasku Najwyższego Porządku bojownicy Ruchu Oporu próbują zapewnić sobie dość czasu, by obmyślić sposób ucieczki.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 0%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 0%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 0%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 0%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 100%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hub-dqar-xlg.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>D'Qar</h1>
+                <p>Ruch Oporu sięga po improwizowane generatory pola grawitacyjnego w walce z ofensywą floty Najwyższego Porządku.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 16.66%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 16.66%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 16.66%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 16.66%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 16.66%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 16.66%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hub-kessel-xlg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Kessel</h1>
+                <p>Planeta Kessel, na której mieszczą się osławione kopalnie przyprawy, jest również bogata w złoża coaxium, paliwo napędzające flotę Imperium.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 20%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hub-geonosis-xlg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Geonosis</h1>
+                <p>Separatyści przystąpili do oblężenia geonosjańskiej fabryki droidów zajmowanej przez saperów Republiki.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 0%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 25%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 25%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 25%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 25%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/maps/hub-bespin-xlg-2x.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Bespin</h1>
+                <p>Rebelianci skierowują grupę uderzeniową do Miasta w Chmurach z nadzieją na zakłócenie wydobycia przez Imperium drogocennego gazu tibanna.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 20%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 20%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 20%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 20%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 20%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/10/swbf2-tile-felucia.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Felucja</h1>
+                <p>Republika Galaktyczna gromadzi pozostałe siły, żeby zabezpieczyć rolniczą społeczność Felucji i zdobyć cenną partię roślin leczniczych.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 25%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 25%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 25%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 25%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/12/swbf2-tile-ajan-kloss.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Ajan Kloss</h1>
+                <p>Najwyższy Porządek wypalił część tropikalnej puszczy porastającej tę planetę, aby przeprowadzić desant sił na pozycje Ruchu Oporu.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 25%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 25%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 25%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 25%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2020/04/swbf2-1920x1080-march-patch-scarif-planet-nologo.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Scarif</h1>
+                <p>Piękna sceneria tropikalnej planety Scarif z jej wysepkami, palmami i krystalicznie czystymi wodami zostaje zaburzona przez górujące instalacje Imperium oraz nieoczekiwane wtargnięcie Rebelii.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="sup" style="width: 33.33%" title="Supremacja">&nbsp;</div>
+                <div class="gal" style="width: 0%" title="Galaktyczny Szturm">&nbsp;</div>
+                <div class="koo" style="width: 33.33%" title="Kooperacja">&nbsp;</div>
+                <div class="bvz" style="width: 33.33%" title="Bohaterowie vs Złoczyńcy">&nbsp;</div>
+                <div class="low" style="width: 0%" title="Łowy Ewoków">&nbsp;</div>
+                <div class="pot" style="width: 0%" title="Potyczka">&nbsp;</div>
+                <div class="kon" style="width: 0%" title="Konwój">&nbsp;</div>
+                <div class="mys" style="width: 0%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2020/04/bx-screenshot-wm.jpg.adapt.crop16x9.652w.jpg" />
+                <h1>Okręty flagowe</h1>
+                <p>Szturmuj i broń olbrzymie okręty flagowe, w tym gwiezdny niszczyciel typu Venator, pancernik Separatystów, krążownik MC85 i gwiezdny niszczyciel typu Resurgent.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="mys" style="width: 100%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="Fondor.png" />
+                <h1>Fondor</h1>
+                <p>Sojusz rebeliancki atakuje imperialną instalację chronioną przez jednostki TIE. Czy Rebelia zdoła zlikwidować na czas zacumowany gwiezdny niszczyciel?</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="mys" style="width: 100%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="nieznany.png" />
+                <h1>Nieznany obszar</h1>
+                <p>Gwiezdny niszczyciel Najwyższego Porządku przemierza pole asteroid bez eskorty. Ruch oporu zwęrzył okazje i zamierza zaatakować z zaskoczenia w nadziei na wyeliminowanie niebezpiecznego okrętu bojowego wroga.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <div class="mys" style="width: 100%" title="Natarcie myśliwców">&nbsp;</div>
+                <img src="ryloth.png" />
+                <h1>Ryloth</h1>
+                <p>Republika Galaktyczna ruszyła na spotkanie wzywającego pomocy statku. Okazało się jednak, że to pułapka zastawiona przez potężny krążownik typu Lucrehulk. Obie strony toczą teraz rozpaczliwą walke o Ryloth.</p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <img src="" />
+                <h1></h1>
+                <p></p>
+            </article>
+        </button>
+        <button onclick="">
+            <article>
+                <img src="" />
+                <h1></h1>
+                <p></p>
+            </article>
+        </button>
+    </main>
+</body>
+</html>
